@@ -1,0 +1,47 @@
+body{
+    /* background-image: url("./IMG_20240214_003407.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; */
+    margin: 0;
+    padding: 0;
+}
+
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("./IMG_20240214_003407.jpg");
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+    font-size: xx-large;
+    padding-top: 200px;
+    color: beige;
+    padding-left: 500px;
+}
+.logo{
+    height: 90px;
+}
+.title2{
+    display: flex;
+    color: beige;
+}
+.navbar{
+    display: flex;
+    margin-top: 20px;
+    color: beige;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    margin-top: 50px;
+    margin-left: 600px;
+
+}
