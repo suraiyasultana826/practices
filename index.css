@@ -45,3 +45,24 @@ body{
     margin-left: 600px;
 
 }
+
+.grid{
+    height: 300px;
+    width: 200px;
+    /* padding: 300px; */
+    border-style: solid;
+    border-color: blue;
+    /* border: 100px; */
+    padding-top: 20px;
+    margin-top: 20px;
+    /* display: flex; */
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 100px 200px 300px;
+    /* grid-row: 1/span3; */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
