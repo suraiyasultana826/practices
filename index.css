@@ -56,13 +56,41 @@ body{
     padding-top: 20px;
     margin-top: 20px;
     /* display: flex; */
+    flex-wrap: wrap;
 }
 
 .grid1{
     display: grid;
-    grid-template-columns: 100px 200px 300px;
+    /* grid-template-columns: 100px 200px 300px; */
+    grid-template-columns: auto auto auto auto;
     /* grid-row: 1/span3; */
     gap: 20px;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width:576px) {
+    .grid1{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section1{
+        width: 100%;
+        height: auto;
+    }
+    .title2{
+        display: block;
+    }
+    .navbar{
+        flex-direction: row;
+    }
+    .search{
+        margin-left: 100px;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        padding-right: 50px;
+    }
+    .title{
+        padding-left: 100px;
+    }
+    
 }
